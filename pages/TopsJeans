@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Homepage</title>
+    <title><T-shirtJeans></T-shirtJeans></title>
 </head>
 <body><hr>
     <div>
@@ -11,7 +11,7 @@
                 </td>
                 <td>
                     <h1>Fashion Hub</h1>
-                    👕 Your One-Stop Fashion Destination 👗
+                    Your One-Stop Fashion Destination
                 </td>
                 <td>
                     <select name="men" id="men">
@@ -41,6 +41,9 @@
     </div>
     <hr>
 
+Your Code goes here....
+
+
     <hr>
     <footer>
         <table width="100%" cellspacing="0" cellpadding="40" >
@@ -66,7 +69,7 @@
                     <a href="https://www.instagram.com"><img src="./img/insta.png" alt="Instagram" height="35"></a>
                 </td>
                 <td >
-                    <h2>Our Offline store : </h2>:
+                    <h2>Our offline store : </h2>:
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.04711152213!2d73.78056555797214!3d18.524598599557173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1720257164174!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </td>
             </tr>
