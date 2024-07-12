@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account</title>
-</head>
-<body>
-    <table height="100%" width="100%">
-        <tr>
-            <td align="center" valign="middle">
-                <div>
-                    <img src="./../img/logo.png" alt="Logo" height="250px">
-                    <hr>
-                    <h1>Create Account</h1>
-                    <form>
-                        <div>
-                            <label for="name">Full Name:</label>
-                            <input type="text" id="firstname" name="firstname" required>
-                        </div>
-                        <br>
-                        
-                        <div>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="MoNo">Mobile No:</label>
-                            <input type="number" id="lastname" name="lastname" required>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="username">Username:</label>
-                            <input type="text" id="username" name="username" required>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password" required>
-                        </div>
-                        <br>
-                        <div>
-                            <button type="submit">Create Account</button>
-                        </div>
-                    </form>
-                </div>
-            </td>
-        </tr>
-    </table>
-    <hr>
-</body>
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>Create Acount</title>
+  </head>
+
+  <body>
+    <center>
+    <div class="container">
+      <h1>Create Account</h1>
+      <div class="form-group">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile number:</label>
+        <select id="country-code" name="country-code">
+          <option value="+91">IN +91</option>
+          <!-- Add more country codes as needed -->
+        </select>
+        <input type="tel" id="mobile" name="mobile" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <p>Passwords must be at least 6 characters.</p>
+      </div>
+      <button class="btn" onclick=><a href="#"> Sign Up</a></button>
+      <div class="signin">
+        <p>Already have an account? <a href="#">Sign in</a></p>
+      </div>
+    </div>
+    </center>
+  </body>
 </html>
