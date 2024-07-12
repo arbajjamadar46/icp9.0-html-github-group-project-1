@@ -1,37 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Admin Login</title>
 </head>
 <body>
-    <table height="100%" width="100%" >
-        <tr>
-            <td align="center" valign="middle">
-                <div>
-                    <img src="./../img/LOGO.png" alt="Logo" height="230px">
-                    <hr>
-                    <h1>Login</h1>
-                    <form>
-                        <div>
-                            <label for="username">Username:</label>
-                            <input type="text" id="username" name="username" required>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password" required>
-                        </div>
-                        <br>
-                        <div>
-                            <button type="submit">Login</button>
-                        </div>
-                    </form>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h1 class="card-title text-center">User Login</h1>
+                        <form action="/user_login" method="POST">
+                            <div class="mb-3">
+                                <label for="username" class="form-label"><b>Username:</b></label>
+                                <input type="text" id="username" name="username" class="form-control" placeholder="Username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label"><b>Password:</b></label>
+                                <input type="password" id="password" name="password" placeholder="Password" class="form-control" required>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-sm mx-auto">Login</button>
+                            </div>
+                            
+                        </form>
+                    </div>
                 </div>
-            </td>
-        </tr>
-    </table>
-    <hr>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
